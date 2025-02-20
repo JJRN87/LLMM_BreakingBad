@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "BreakingBad";
+    src: url("../css/Breaking\ Bad.ttf") format("truetype");
+}
+
+body {
+    background-color: #0c3e11;
+    background-size: cover;
+    text-align: center;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: auto;
+}
+
+/*Especificaciones INDEX.HTML*/
+#breaking{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.poster{
+    
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+
+/*Especificaciones del formulario*/
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #361a5e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 1, 0, 0);
+}
+
+fieldset {
+    border: 1px solid #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffffb0;
+    border-radius: 5px;
+    background-color: #0c313e;
+    color: #ffffff;
+}
+
+
+
+/* Estilos de la tabla */
+
+table {
+    background-color: #0c3e11;
+    text-align: center;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+th{
+    border: 5px solid black;
+    padding: 10px;
+}
+
+td:empty {
+    background-color: black;
+}
+
+.ajusteimg {
+    background-image: url(../img/hankschrader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.fuente_grande {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.fuente_pequeña {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+
+/*Colores tablas*/
+
+.color_verde_lima {
+    background-color: #d9f700;
+}
+
+.color_verde_claro {
+    background-color: #bff149;
+}
+
+.color_verde_oliva {
+    background-color: #546026;
+}
+
+.color_verdeamarillo {
+    background-color: #e7ed30;
+}
+.color_blanco{
+    background-color: #eaebe4;
+}
+
+.color_gris{
+    background-color: #939982;
+}
+
+.color_verde_brillo {
+    background-color: #607809;
+}
+
+.color_verde_amarrillo2 {
+    background-color: #cee38a;
+}
+
+.color_verde_olivaoscuro {
+    background-color: #2e3c03;
+}
+
+.color_morado{
+    background-color: rgb(174,99,174);
+}
+
